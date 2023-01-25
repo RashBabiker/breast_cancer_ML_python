@@ -42,7 +42,7 @@ def pca_analysis(data, diagnosis):
     plt.xlabel('PC1' + ' ' +
                str(round(pca.explained_variance_ratio_[0]*100, 2)) + '%')
     plt.ylabel('PC2' + ' ' +
-               str(round(pca.explained_variance_ratio_[0]*100, 2)) + '%')
+               str(round(pca.explained_variance_ratio_[1]*100, 2)) + '%')
 
     plt.show()
 
